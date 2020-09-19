@@ -1,4 +1,4 @@
-# How To Use Mathjax With Minima
+# How To Use MathJax With Minima
 I implemented the following steps to be able to write LaTex whilst using the default Minima theme:
 
 1) Create an empty file in the root of your repo called `_includes/head.html`.
