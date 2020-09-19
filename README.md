@@ -1,8 +1,10 @@
 # How To Use Mathjax With Minima
+I implemented the following steps to be able to write LaTex whilst using the default Minima theme:
 
-1) Run `bundle info minima` to find the location of the minima gem files.
-2) Copy the `_includes/head.html` file from the minima theme into the root of the current repo. Then add
-the following just before `<\head>`:
+1) Create an empty file in the root of your repo called `_includes/head.html`.
+2) Run `bundle info minima` to find the location of the minima gem files.
+3) Copy the contents of the `_includes/head.html` file from the minima theme into the file created in Step 1. 
+4) Add the following just before `<\head>`:
 
 ```
 <script type="text/javascript" async
